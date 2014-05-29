@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <action method="addBodyClass" block="root">
+             <css_class_name helper="MobWeb_CustomBodyClasses/getCustomBodyClasses" />
+        </action>
+    </default>
+</layout>

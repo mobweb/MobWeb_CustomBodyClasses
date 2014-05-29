@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_CustomBodyClasses>
+            <version>0.1.0</version>
+        </MobWeb_CustomBodyClasses>
+    </modules>
+    <global>
+        <helpers>
+            <MobWeb_CustomBodyClasses>
+                <class>MobWeb_CustomBodyClasses_Helper</class>
+            </MobWeb_CustomBodyClasses>
+        </helpers>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html>MobWeb_CustomBodyClasses_Block_Html</html>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <MobWeb_CustomBodyClasses>
+                    <file>MobWeb_CustomBodyClasses.xml</file>
+                </MobWeb_CustomBodyClasses>
+            </updates>
+        </layout>
+    </frontend>
+</config>

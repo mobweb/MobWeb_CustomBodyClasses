@@ -1,0 +1,8 @@
+app/code/local/MobWeb/CustomBodyClasses app/code/local/MobWeb/CustomBodyClasses/
+
+app/design/frontend/base/default/layout/MobWeb_CustomBodyClasses.xml app/design/frontend/base/default/layout/MobWeb_CustomBodyClasses.xml
+
+app/etc/modules/MobWeb_CustomBodyClasses.xml app/etc/modules/MobWeb_CustomBodyClasses.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
