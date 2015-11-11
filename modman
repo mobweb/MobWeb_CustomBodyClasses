@@ -1,4 +1,4 @@
-app/code/local/MobWeb/CustomBodyClasses app/code/local/MobWeb/CustomBodyClasses/
+app/code/community/MobWeb/CustomBodyClasses app/code/community/MobWeb/CustomBodyClasses/
 
 app/design/frontend/base/default/layout/MobWeb_CustomBodyClasses.xml app/design/frontend/base/default/layout/MobWeb_CustomBodyClasses.xml
 
