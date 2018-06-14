@@ -1,19 +1,28 @@
 <?php
 
+/**
+ * @author    Louis Bataillard <info@mobweb.ch>
+ * @package    MobWeb_CustomBodyClasses
+ * @copyright    Copyright (c) MobWeb GmbH (https://mobweb.ch)
+ */
 class MobWeb_CustomBodyClasses_Helper_Data extends Mage_Core_Helper_Abstract
 {
-	public function getCustomBodyClasses()
-	{
-		// Collect custom body classes
-		$customBodyClasses = array();
 
-		// Example: Check if the current user is logged in
-		$customBodyClasses[] = Mage::getSingleton('customer/session')->isLoggedIn() ? 'logged-in' : 'not-logged-in';
+    /**
+     * 
+     */
+    public function getCustomBodyClasses()
+    {
+        // Collect custom body classes
+        $customBodyClasses = array();
 
-		// Do whatever you want here...
-		$customBodyClasses[] = 'another-class';
+        // Example: Check if the current user is logged in
+        $customBodyClasses[] = Mage::getSingleton('customer/session')->isLoggedIn() ? 'logged-in' : 'not-logged-in';
 
-		// Return all body classes here
-		return $customBodyClasses;
-	}
+        // Do whatever you want here...
+        $customBodyClasses[] = 'another-class';
+
+        // Return all body classes here
+        return $customBodyClasses;
+    }
 }
